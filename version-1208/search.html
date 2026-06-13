@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>搜索-国产影视—免费视频资源库：在线观看高清电影与剧集-优质国产影视</title>
+  <meta name="description" content="国产影视免费视频资源库，为用户提供在线观看高清电影、电视剧集等服务。内容涵盖热门推荐、经典回放等，全部支持免费播放。">
+  <meta name="keywords" content="国产影视—免费视频资源库：在线观看高清电影与剧集-优质国产影视,国产,视频,免费,在线观看,高清,影视大全,搜索,筛选,影片搜索">
+  <meta name="robots" content="index,follow">
+  <meta property="og:title" content="搜索-国产影视—免费视频资源库：在线观看高清电影与剧集-优质国产影视">
+  <meta property="og:description" content="国产影视免费视频资源库，为用户提供在线观看高清电影、电视剧集等服务。内容涵盖热门推荐、经典回放等，全部支持免费播放。">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/movies-data.js" defer></script>
+</head>
+<body data-root-prefix="">
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="国产影视首页">
+        <span class="brand-mark">影</span>
+        <span class="brand-text">
+          <strong>国产影视</strong>
+          <small>高清片库</small>
+        </span>
+      </a>
+      <nav class="desktop-nav" aria-label="主导航">
+          <a class="nav-link " href="index.html">首页</a>
+          <a class="nav-link " href="categories.html">分类</a>
+          <a class="nav-link " href="ranking.html">排行榜</a>
+          <a class="nav-link is-active" href="search.html">搜索</a>
+          <a class="nav-link nav-link-soft" href="category/guochan-selection.html">国产精选</a>
+          <a class="nav-link nav-link-soft" href="category/hd-movies.html">高清电影</a>
+          <a class="nav-link nav-link-soft" href="category/series-zone.html">剧集专区</a>
+          <a class="nav-link nav-link-soft" href="category/suspense-crime.html">悬疑推理</a>
+      </nav>
+      <form class="header-search" action="search.html" method="get" data-search-form>
+        <input type="search" name="q" placeholder="搜索影片、类型、年份" aria-label="搜索影片">
+        <button type="submit">搜索</button>
+      </form>
+      <button class="mobile-menu-button" type="button" data-menu-toggle aria-label="打开导航">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="mobile-nav" data-mobile-menu>
+      <nav class="container mobile-nav-inner" aria-label="移动导航">
+        <a href="index.html">首页</a>
+        <a href="categories.html">分类总览</a>
+        <a href="ranking.html">排行榜</a>
+        <a href="search.html">搜索</a>
+        <a href="category/guochan-selection.html">国产精选</a>
+        <a href="category/hd-movies.html">高清电影</a>
+        <form action="search.html" method="get" data-search-form>
+          <input type="search" name="q" placeholder="输入关键词">
+          <button type="submit">搜索</button>
+        </form>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="subpage-hero">
+      <div class="container">
+        <p class="page-kicker">搜索筛选</p>
+        <h1>搜索国产影视片库</h1>
+        <p>支持片名、简介、地区、类型、年份、标签与分类关键词检索。</p>
+      </div>
+    </section>
+    <section class="container section-block">
+      <div class="search-workbench">
+        <form class="search-page-form" data-search-page-form>
+          <input type="search" name="q" placeholder="输入关键词，例如：爱情、2025、悬疑、中国大陆">
+          <button type="submit">搜索</button>
+        </form>
+        <div class="search-controls">
+          <select data-search-category>
+            <option value="">全部分类</option>
+            <option value="guochan-selection">国产精选</option>
+            <option value="hd-movies">高清电影</option>
+            <option value="series-zone">剧集专区</option>
+            <option value="suspense-crime">悬疑推理</option>
+            <option value="action-adventure">动作冒险</option>
+            <option value="romance-healing">爱情治愈</option>
+            <option value="sci-fi-fantasy">科幻奇幻</option>
+            <option value="classic-replay">经典回放</option>
+          </select>
+          <select data-search-year>
+            <option value="">全部年份</option>
+          </select>
+        </div>
+      </div>
+      <div class="search-status" data-search-status>请输入关键词或直接浏览推荐结果。</div>
+      <div class="movie-grid" data-search-results></div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h2>国产影视</h2>
+        <p>国产影视免费视频资源库，为用户提供在线观看高清电影、电视剧集等服务。内容涵盖热门推荐、经典回放等，全部支持免费播放。</p>
+      </section>
+      <section>
+        <h3>快速导航</h3>
+        <ul>
+          <li><a href="index.html">首页</a></li>
+          <li><a href="categories.html">分类总览</a></li>
+          <li><a href="ranking.html">排行榜</a></li>
+          <li><a href="search.html">搜索影片</a></li>
+        </ul>
+      </section>
+      <section>
+        <h3>分类入口</h3>
+        <ul class="footer-category-list">
+              <li><a href="category/guochan-selection.html">国产精选</a></li>
+              <li><a href="category/hd-movies.html">高清电影</a></li>
+              <li><a href="category/series-zone.html">剧集专区</a></li>
+              <li><a href="category/suspense-crime.html">悬疑推理</a></li>
+              <li><a href="category/action-adventure.html">动作冒险</a></li>
+              <li><a href="category/romance-healing.html">爱情治愈</a></li>
+              <li><a href="category/sci-fi-fantasy.html">科幻奇幻</a></li>
+              <li><a href="category/classic-replay.html">经典回放</a></li>
+        </ul>
+      </section>
+    </div>
+    <div class="container footer-bottom">
+      <p>国产影视 © 2026 · 高清电影与剧集静态资源库</p>
+    </div>
+  </footer>
+
+  <script src="assets/app.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?95df08bc498ee0333203841fd6fee1eb";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
